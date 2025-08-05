@@ -10,4 +10,16 @@ class SiteController extends Controller
     {
         return view('site.home');
     }
+    public function getAbout()
+    {
+        return view('site.about');
+    }
+    public function getTeam()
+    {
+        return view('site.team');
+    }
+    public function getServices()
+    {
+        return view('site.services');
+    }
 }
