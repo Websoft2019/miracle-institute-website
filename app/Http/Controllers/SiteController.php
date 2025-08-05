@@ -8,6 +8,6 @@ class SiteController extends Controller
 {
     public function getHome()
     {
-        return view('site.template');
+        return view('site.home');
     }
 }
